@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.1.7\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\icpm.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\icpm.dir/objects.a @CMakeFiles\icpm.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\icpm.dir/objects.a -Wl,--no-whole-archive  -o icpm.exe -Wl,--out-implib,libicpm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\icpm.dir\linklibs.rsp
